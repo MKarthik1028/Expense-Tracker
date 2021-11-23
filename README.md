@@ -1,5 +1,5 @@
 
-<p align="center">
+<p align="left">
 <img src="https://user-images.githubusercontent.com/94285514/141747267-0d3d8d3b-d835-4487-9523-4bc54b319ffb.png" />
 </p>
 
@@ -47,17 +47,17 @@ _Project created for Database Management Systems Lab Course (CS309)._
 
 **_Database_**
 
-###### Entity Relationship Diagram
+##### Entity Relationship Diagram
 <p align="center">
 
 <img src="https://user-images.githubusercontent.com/94285514/143066827-ef306b69-3eb8-45db-99eb-54d075fe18ec.jpg" width="500" height="">
 
 </p>
 
-###### Class Diagram
+##### Class Diagram
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/94285514/143066827-ef306b69-3eb8-45db-99eb-54d075fe18ec.jpg" width="500" height="">
+<img src="https://user-images.githubusercontent.com/94285514/143071049-8af4925b-79fa-438c-a92e-efcbd2fd6ad0.jpg" width="500" height="">
 
 </p>
 
