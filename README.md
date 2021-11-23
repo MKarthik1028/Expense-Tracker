@@ -26,9 +26,12 @@ _Project created for Database Management Systems Lab Course (CS309)._
 
 <!-- https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white -->
 
+**_Framework_**
+- **Symfony** is an open-source PHP web application framework, designed for developers who need a simple and elegant toolkit to create full-featured web applications.
+
 **_Packages_**
 
-1. [**Doctrine - DBAL**](https://symfony.com/doc/current/doctrine.html):  Powerful PHP Database Abstraction Layer with many for features for communication between a Computer Application and Relational Databases like MySQL, PostgreSQL, Oracle and SQLite.
+1. [**Doctrine - DBAL**](https://symfony.com/doc/current/doctrine.html): Powerful PHP Database Abstraction Layer with many for features for communication between a Computer Application and Relational Databases like MySQL, PostgreSQL, Oracle and SQLite.
 
 2. [**PHPMailer**](https://github.com/infinitered/middleman-template/tree/master/source/libraries/vendor/phpmailer/phpmailer): A full-featured email creation and transfer class for PHP.
 
@@ -42,6 +45,22 @@ _Project created for Database Management Systems Lab Course (CS309)._
 6. [**Tether**](http://tether.io/): For efficiently making an absolutely positioned element stay next to another element on the page.
 7. [**FormStyler**](https://cdnjs.com/libraries/jQueryFormStyler): For styling HTML Form Elements.
 
+**_Database_**
+
+###### Entity Relationship Diagram
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/94285514/143066827-ef306b69-3eb8-45db-99eb-54d075fe18ec.jpg" width="500" height="">
+
+</p>
+
+###### Class Diagram
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/94285514/143066827-ef306b69-3eb8-45db-99eb-54d075fe18ec.jpg" width="500" height="">
+
+</p>
 
 **_License_**
+
 This software is licenced under the MIT License. Please read LICENSE for information on the software availability and distribution.
