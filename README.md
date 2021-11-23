@@ -6,10 +6,12 @@
 Website to track **Personal Expenses** with user login support and **Data Visualization.**
 _Project created for Database Management Systems Lab Course (CS309)._
 
+<h3 align="center">Technology Stack</h3>
+
 <p align=center>
 
 <img src="https://img.shields.io/badge/Xampp-F37623?style=for-the-badge&logo=xampp&logoColor=white" />
-<img src="https://img.shields.io/badge/PHP-v7.3.2-777BB4?&style=for-the-badge&logo=php&?labelColor=777BB4&logoColor=white" />
+<img src="https://img.shields.io/badge/PHP-v7.3.12-777BB4?&style=for-the-badge&logo=php&?labelColor=777BB4&logoColor=white" />
 <img src="https://img.shields.io/badge/symfony-%23000000.svg?style=for-the-badge&logo=symfony&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" />
@@ -47,19 +49,47 @@ _Project created for Database Management Systems Lab Course (CS309)._
 
 **_Database_**
 
-##### Entity Relationship Diagram
+For this project, we will be using three tables.
+ - Users: Stores registered users credentials.
+ - Categories: Stores different types of Categories.
+ - Expenses: Stores Expense Amount and Type of Expense for each user.
+
+#### Entity Relationship Diagram
 <p align="center">
 
 <img src="https://user-images.githubusercontent.com/94285514/143078649-ca11abe6-7217-4614-9c33-350c6c34b651.jpg" width="500" height="">
 
 </p>
 
-##### Class Diagram
+#### Class Diagram
 <p align="center">
 
 <img src="https://user-images.githubusercontent.com/94285514/143071049-8af4925b-79fa-438c-a92e-efcbd2fd6ad0.jpg" width="500" height="">
 
 </p>
+
+**_Modules_**
+
+1. Login Page
+2. User Registration Page
+3. Personal Expense dashboard
+4. Add or Delete Expense.
+5. Add or Delete Category.
+6. Manage Expenses and Categories.
+7. Data Visualization
+    a) Category wise - Pie Chart 
+    b) Date and Time wise - Line Graph
+
+**_Requirements_**
+
+Install XAMPP v7.3.12 from the below link. [Click here to Download](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.3.12/)
+
+**_How to Run?_**
+
+1. Clone this repository in the htdocs folder located under XAMPP Installation Folder. The default path is: ```C:\xampp\htdocs```.
+2. Open XAMPP Control Panel and then start Apache Server and MySQL services.
+3. Open PHPmyAdmin and the create a Database of name **expense_tracker** and import the .sql file provided in database folder in the repo.
+4. Now use the address ```localhost/Expense-Tracker``` to open the project in browser.
 
 **_License_**
 
