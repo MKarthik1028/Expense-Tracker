@@ -15,4 +15,20 @@ _Project created for Database Management Systems Lab Course (CS309)._
 
 <!-- https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white -->
 
-**_About_**
+**_Packages_**
+
+1. [**Doctrine - DBAL**](https://symfony.com/doc/current/doctrine.html):  Powerful PHP Database Abstraction Layer with many for features for communication between a Computer Application and Relational Databases like MySQL, PostgreSQL, Oracle and SQLite.
+
+2. [**PHPMailer**](https://github.com/infinitered/middleman-template/tree/master/source/libraries/vendor/phpmailer/phpmailer): A full-featured email creation and transfer class for PHP
+
+**_Assets_**
+
+1. [**Popper**](): 
+1. [**Datepicker**](): 
+1. [**SmoothScroll**](): 
+1. [**Dropdown**](): 
+
+**_Diagrams_**
+
+**_License_**
+This software is licenced under the MIT License. Please read LICENSE for information on the software availability and distribution.
