@@ -77,8 +77,8 @@ For this project, we will be using three tables.
 5. Add or Delete Category.
 6. Manage Expenses and Categories.
 7. Data Visualization
-    a) Category wise - Pie Chart 
-    b) Date and Time wise - Line Graph
+    - Category wise - Pie Chart 
+    - Date and Time wise - Line Graph
 
 **_Requirements_**
 
