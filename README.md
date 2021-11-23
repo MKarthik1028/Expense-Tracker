@@ -50,7 +50,7 @@ _Project created for Database Management Systems Lab Course (CS309)._
 ##### Entity Relationship Diagram
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/94285514/143066827-ef306b69-3eb8-45db-99eb-54d075fe18ec.jpg" width="500" height="">
+<img src="https://user-images.githubusercontent.com/94285514/143078649-ca11abe6-7217-4614-9c33-350c6c34b651.jpg" width="500" height="">
 
 </p>
 
