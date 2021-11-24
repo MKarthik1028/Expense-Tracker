@@ -58,14 +58,14 @@ For this project, we will be using three tables.
 #### Entity Relationship Diagram
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/94285514/143078649-ca11abe6-7217-4614-9c33-350c6c34b651.jpg" width="500" height="">
+<img src="https://user-images.githubusercontent.com/94285514/143078649-ca11abe6-7217-4614-9c33-350c6c34b651.jpg" width="700" height="">
 
 </p>
 
 #### Class Diagram
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/94285514/143071049-8af4925b-79fa-438c-a92e-efcbd2fd6ad0.jpg" width="500" height="">
+<img src="https://user-images.githubusercontent.com/94285514/143071049-8af4925b-79fa-438c-a92e-efcbd2fd6ad0.jpg">
 
 </p>
 
