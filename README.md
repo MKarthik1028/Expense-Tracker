@@ -35,7 +35,7 @@ _Project created for Database Management Systems Lab Course (CS309)._
 
 1. [**Doctrine - DBAL**](https://symfony.com/doc/current/doctrine.html): Powerful PHP Database Abstraction Layer with many for features for communication between a Computer Application and Relational Databases like MySQL, PostgreSQL, Oracle and SQLite.
 
-2. [**PHPMailer**](https://github.com/infinitered/middleman-template/tree/master/source/libraries/vendor/phpmailer/phpmailer): A full-featured email creation and transfer class for PHP.
+2. [**PHPMailer**](https://github.com/infinitered/middleman-template/tree/master/source/libraries/vendor/phpmailer/phpmailer): A full-featured email creation and transfer class for PHP. Used for Registration Confirmation Mail (Removed).
 
 **_JS Libraries_**
 
