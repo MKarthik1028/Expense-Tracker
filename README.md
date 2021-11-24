@@ -4,6 +4,7 @@
 </p>
 
 Website to track **Personal Expenses** with user login support and **Data Visualization.**
+
 _Project created for Database Management Systems Lab Course (CS309)._
 
 <h3 align="center">Technology Stack</h3>
