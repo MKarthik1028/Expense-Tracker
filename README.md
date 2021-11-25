@@ -92,10 +92,35 @@ For this project, we will be using three tables.
 <img src="https://user-images.githubusercontent.com/94285514/143486071-afe218eb-979c-4450-ac50-8c473d0b106b.png">
 </p>
 
+***SQL Query***
+```sql
+SELECT 
+  sum(E.amount) as total_expenses, 
+  C.name 
+FROM 
+  expenses E 
+  LEFT JOIN categories C ON E.category_id = C.id 
+WHERE 
+  E.user_id = $user_id 
+GROUP BY 
+  E.category_id;
+```
+
 <p align="center">
 <b><i>Date and Time Wise - Line Chart</i></b>
 <img src="https://user-images.githubusercontent.com/94285514/143486008-df4cfbd5-a42b-4dbb-9bd4-3a22ce959b62.png">
 </p>
+
+***SQL Query***
+```sql
+SELECT * 
+FROM 
+  expenses 
+WHERE 
+  datetime_added >= '$from_date' 
+  AND datetime_added <= '$to_date' 
+  AND user_id = $user_id;
+```
 
 **_Requirements_**
 
