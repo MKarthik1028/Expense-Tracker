@@ -69,17 +69,33 @@ For this project, we will be using three tables.
 
 </p>
 
-**_Modules_**
+***Modules & Screenshots***
 
-1. Login Page
-2. User Registration Page
+
+<p align="center">
+<b><i>Login Page</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143485149-3f251a62-1e4d-4f33-8e2c-c4b5d954d2f0.png">
+</p>
+
+<p align="center">
+<b><i>User Registration Page</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143485533-8ca75334-1264-400d-8685-e432a733576e.png">
+</p>
+
 3. Personal Expense dashboard
 4. Add or Delete Expense.
 5. Add or Delete Category.
 6. Manage Expenses and Categories.
-7. Data Visualization
-    - Category wise - Pie Chart 
-    - Date and Time wise - Line Graph
+  
+<p align="center">
+<b><i>Category Wise - Pie Chart</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143486071-afe218eb-979c-4450-ac50-8c473d0b106b.png">
+</p>
+
+<p align="center">
+<b><i>Date and Time Wise - Line Chart</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143486008-df4cfbd5-a42b-4dbb-9bd4-3a22ce959b62.png">
+</p>
 
 **_Requirements_**
 
