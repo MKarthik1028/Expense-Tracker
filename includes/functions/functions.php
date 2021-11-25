@@ -110,14 +110,14 @@ if(isset($_SERVER['SERVER_NAME']) && ($_SERVER['SERVER_NAME'] == "www.localhost"
     
     
     if(isset($level) && $level==2){
-	include '../../PHPMailerAutoload.php';
-	include '../../class.phpmailer.php';
+	include '../../utils/PHPMailer/PHPMailerAutoload.php';
+	include '../../utils/PHPMailer/class.phpmailer.php';
     }else if(isset($level) && $level==1){
-	include '../PHPMailerAutoload.php';
-	include '../class.phpmailer.php';
+	include '../utils/PHPMailer/PHPMailerAutoload.php';
+	include '../utils/PHPMailer/class.phpmailer.php';
     }else{
-	include './PHPMailerAutoload.php';
-	include './class.phpmailer.php';
+	include './utils/PHPMailer/PHPMailerAutoload.php';
+	include './utils/PHPMailer/class.phpmailer.php';
     }
 }else{
     include "$sitepath/PHPMailerAutoload.php";

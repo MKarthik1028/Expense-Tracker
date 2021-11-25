@@ -1,5 +1,5 @@
 <?php
-include './functions.php';
+include './includes/functions/functions.php';
 
 session_destroy();
 unset($_SESSION);

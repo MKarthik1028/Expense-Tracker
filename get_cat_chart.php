@@ -1,5 +1,5 @@
 <?php
-include './functions.php';
+include './includes/functions/functions.php';
 
 $user_id = $_SESSION['user']['id'];
 

@@ -1,5 +1,5 @@
 <?php
-include './functions.php';
+include './includes/functions/functions.php';
 
 $expense_id = $params['expense_id'];
 

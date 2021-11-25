@@ -1,5 +1,5 @@
 <?php
-include './functions.php';
+include './includes/functions/functions.php';
 ?><!DOCTYPE html>
 <html  >
     <head>
@@ -8,7 +8,7 @@ include './functions.php';
     </head>
     <body>
 
-	<?php include './header.php'; ?>
+	<?php include './includes/header.php'; ?>
 
 	<section class="form cid-sMu0o96RY6" id="formbuilder-1o">
     
@@ -48,7 +48,7 @@ include './functions.php';
 	</section>
 	
 	
-	<?php include './footer.php'; ?>
+	<?php include './includes/footer.php'; ?>
 
 	
 

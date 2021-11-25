@@ -1,6 +1,6 @@
 <?php
-include './functions.php';
-include './auth.php';
+include './includes/functions/functions.php';
+include './includes/functions/auth.php';
 $user_id = $_SESSION['user']['id'];
 
 

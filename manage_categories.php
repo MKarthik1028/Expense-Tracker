@@ -1,6 +1,6 @@
 <?php
-include './functions.php';
-include './auth.php';
+include './includes/functions/functions.php';
+include './includes/functions/auth.php';
 $user_id = $_SESSION['user']['id'];
 
 
@@ -13,7 +13,7 @@ $categories = $db->query("SELECT * FROM categories")->fetchAll();
     </head>
     <body>
 
-	<?php include './header.php'; ?>
+	<?php include './includes/header.php'; ?>
 
 
 	<section class="features7 cid-sENIyiRsb8" id="features08-3" style="min-height: 500px;">
@@ -65,7 +65,7 @@ $categories = $db->query("SELECT * FROM categories")->fetchAll();
 
 	
 	
-	<?php include './footer.php'; ?>
+	<?php include './includes/footer.php'; ?>
 	<?php include './bottom_scripts.php'; ?>
 	<script>
 	    $(document).ready(function(){

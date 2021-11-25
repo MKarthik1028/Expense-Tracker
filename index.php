@@ -1,6 +1,6 @@
 <?php
-include './functions.php';
-include './auth.php';
+include './includes/functions/functions.php';
+include './includes/functions/auth.php';
 $user_id = $_SESSION['user']['id'];
 $sql = "SELECT e.*, c.name as category_name FROM expenses e LEFT JOIN categories c ON e.category_id = c.id WHERE user_id = $user_id ORDER BY datetime_added DESC LIMIT 5";
 $recent_expenses = $db->query($sql)->fetchAll(PDO::FETCH_ASSOC);
@@ -12,7 +12,7 @@ $recent_expenses = $db->query($sql)->fetchAll(PDO::FETCH_ASSOC);
     </head>
     <body>
 
-	<?php include './header.php'; ?>
+	<?php include './includes/header.php'; ?>
 
 
 	<section class="features7 cid-sENIyiRsb8" id="features08-3" style="min-height: 500px;">
@@ -67,7 +67,7 @@ $recent_expenses = $db->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
 	
 	
-	<?php include './footer.php'; ?>
+	<?php include './includes/footer.php'; ?>
 	<?php include './bottom_scripts.php'; ?>
 	<script>
 	    $(document).ready(function(){

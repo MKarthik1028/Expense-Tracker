@@ -1,5 +1,5 @@
 <?php
-include './functions.php';
+include './includes/functions/functions.php';
 $user_id = $_SESSION['user']['id'];
 $from_date = $params['from_date']." 00:00:00";
 $to_date = $params['to_date']." 23:59:59";
