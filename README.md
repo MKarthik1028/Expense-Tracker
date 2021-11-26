@@ -103,13 +103,30 @@ For this project, we will be using three tables.
 </p>
 
 <p align="center">
-<b><i>Manage Expenses</i></b>
+<b><i>Manage Categories</i></b>
 <img src="https://user-images.githubusercontent.com/94285514/143530037-4847fafc-c106-4eee-b2ba-20b55b25e5c8.png">
 
+***SQL Query***
+```sql
+SELECT * FROM categories;
+```
+
 <br>
-<b><i>Manage Categories</i></b>
+<b><i>Manage Expenses</i></b>
 <img src="https://user-images.githubusercontent.com/94285514/143530108-565e3caf-7e74-4b7e-b062-858059bd13cc.png">
 </p>
+
+***SQL Query***
+```sql
+SELECT 
+  E.*, 
+  C.name as category_name 
+FROM 
+  expenses E 
+  LEFT JOIN categories C ON E.category_id = C.id 
+WHERE 
+  user_id = $user_id;
+```
   
 <p align="center">
 <b><i>Category Wise - Pie Chart</i></b>
