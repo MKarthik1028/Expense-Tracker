@@ -82,14 +82,38 @@ For this project, we will be using three tables.
 <img src="https://user-images.githubusercontent.com/94285514/143485533-8ca75334-1264-400d-8685-e432a733576e.png">
 </p>
 
-3. Personal Expense dashboard
-4. Add or Delete Expense.
-5. Add or Delete Category.
-6. Manage Expenses and Categories.
+<p align="center">
+<b><i>Change Password</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143530298-efecd690-b178-42d7-bbab-3d58cfe3aa33.png">
+</p>
+
+<p align="center">
+<b><i>Personal Expense dashboard</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143530231-13b76d18-b33e-4da7-9766-54bffa4d9df5.png">
+</p>
+
+<p align="center">
+<b><i>Add Expense</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143530667-cf87a892-a781-49ae-b943-2975b1ff32ca.png">
+</p>
+
+<p align="center">
+<b><i>Add Category</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143530664-b6607da8-9e42-46c0-90b1-d36285d17767.png">
+</p>
+
+<p align="center">
+<b><i>Manage Expenses</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143530037-4847fafc-c106-4eee-b2ba-20b55b25e5c8.png">
+
+<br>
+<b><i>Manage Categories</i></b>
+<img src="https://user-images.githubusercontent.com/94285514/143530108-565e3caf-7e74-4b7e-b062-858059bd13cc.png">
+</p>
   
 <p align="center">
 <b><i>Category Wise - Pie Chart</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143486071-afe218eb-979c-4450-ac50-8c473d0b106b.png">
+<img src="https://user-images.githubusercontent.com/94285514/143529827-eef436b2-d270-4078-ac99-e717bb77cba3.png">
 </p>
 
 ***SQL Query***
@@ -108,7 +132,7 @@ GROUP BY
 
 <p align="center">
 <b><i>Date and Time Wise - Line Chart</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143486008-df4cfbd5-a42b-4dbb-9bd4-3a22ce959b62.png">
+<img src="https://user-images.githubusercontent.com/94285514/143529871-2443dac1-0846-47a8-a107-d4d7f3b1133e.png">
 </p>
 
 ***SQL Query***
