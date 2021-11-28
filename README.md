@@ -51,14 +51,14 @@ _Project created for Database Management Systems Lab Course (CS309)._
 **_Database_**
 
 For this project, we will be using three tables.
- - Users: Stores registered users credentials.
- - Categories: Stores different types of Categories.
- - Expenses: Stores Expense Amount and Type of Expense for each user.
+ - **Users**(user_id, role, username, password, date_time_registered): Stores registered users credentials.
+ - **Category**(category_id, category_name, date_time_added): Stores different types of Categories.
+ - **Expenses**(expense_id, user_id, category_id, amount, description, date_time_added): Stores Expense Amount and Type of Expense for each user.
 
 #### Entity Relationship Diagram
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/94285514/143078649-ca11abe6-7217-4614-9c33-350c6c34b651.jpg" width="700" height="">
+<img src="https://user-images.githubusercontent.com/94285514/143732666-4dd9561b-a4a5-44e2-ba23-68222660cedd.jpg" width="700" height="">
 
 </p>
 
@@ -171,7 +171,7 @@ Install XAMPP v7.3.12 from the below link. [Click here to Download](https://sour
 
 1. Clone this repository in the htdocs folder located under XAMPP Installation Folder. The default path is: ```C:\xampp\htdocs```.
 2. Open XAMPP Control Panel and then start Apache Server and MySQL services.
-3. Open PHPmyAdmin and the create a Database of name **expense_tracker** and import the .sql file provided in database folder in the repo.
+3. Open PHPmyAdmin and then create a Database of name **expense_tracker** and import the .sql file provided in database folder in the repo.
 4. Now use the address ```localhost/Expense-Tracker``` to open the project in browser.
 
 **_License_**
