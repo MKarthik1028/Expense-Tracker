@@ -149,10 +149,10 @@ GROUP BY
 
 <p align="center">
 <b><i>Date and Time Wise - Line Chart</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143529871-2443dac1-0846-47a8-a107-d4d7f3b1133e.png">
+<img src="https://user-images.githubusercontent.com/94285514/143763678-47726677-4dea-4b2a-96cb-09f2eb0d92a4.png">
 </p>
 
-***SQL Query***
+***SQL Query**
 ```sql
 SELECT * 
 FROM 
