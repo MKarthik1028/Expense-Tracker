@@ -105,13 +105,16 @@ For this project, we will be using three tables.
 <p align="center">
 <b><i>Manage Categories</i></b>
 <img src="https://user-images.githubusercontent.com/94285514/143530037-4847fafc-c106-4eee-b2ba-20b55b25e5c8.png">
+</p>
 
 ***SQL Query***
+ 
 ```sql
 SELECT * FROM categories;
 ```
 
 <br>
+<p align="center">
 <b><i>Manage Expenses</i></b>
 <img src="https://user-images.githubusercontent.com/94285514/143530108-565e3caf-7e74-4b7e-b062-858059bd13cc.png">
 </p>
@@ -152,7 +155,7 @@ GROUP BY
 <img src="https://user-images.githubusercontent.com/94285514/143763678-47726677-4dea-4b2a-96cb-09f2eb0d92a4.png">
 </p>
 
-***SQL Query**
+***SQL Query***
 ```sql
 SELECT * 
 FROM 
