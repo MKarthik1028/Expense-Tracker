@@ -1,8 +1,4 @@
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/94285514/141747267-0d3d8d3b-d835-4487-9523-4bc54b319ffb.png" />
-</p>
-
+# Expense Tracker
 Website to track **Personal Expenses** with user login support and **Data Visualization.**
 
 _Project created for Database Management Systems Lab Course (CS309)._
@@ -37,16 +33,6 @@ _Project created for Database Management Systems Lab Course (CS309)._
 1. [**Doctrine - DBAL**](https://symfony.com/doc/current/doctrine.html): Powerful PHP Database Abstraction Layer with many for features for communication between a Computer Application and Relational Databases like MySQL, PostgreSQL, Oracle and SQLite.
 
 2. [**PHPMailer**](https://github.com/infinitered/middleman-template/tree/master/source/libraries/vendor/phpmailer/phpmailer): A full-featured email creation and transfer class for PHP. Used for Registration Confirmation Mail (Removed).
-
-**_JS Libraries_**
-
-1. [**JQuery**](https://jquery.com/): For Event Handling and CSS Animation.
-2. [**Popper**](https://github.com/popperjs/popper-core): Manages Tooltips.
-3. [**Datepicker**](https://api.jqueryui.com/datepicker/): Select a date from a popup or inline calendar.
-4. [**Smooth-Scroll**](https://github.com/cferdinandi/smooth-scroll): Handles smooth vertical and horizontal scrolling.
-5. [**Dropdown**](https://getbootstrap.com/docs/4.0/components/dropdowns/): For Navigation Bar Dropdown Menu.
-6. [**Tether**](http://tether.io/): For efficiently making an absolutely positioned element stay next to another element on the page.
-7. [**FormStyler**](https://cdnjs.com/libraries/jQueryFormStyler): For styling HTML Form Elements.
 
 **_Database_**
 
@@ -106,12 +92,6 @@ For this project, we will be using three tables.
 <b><i>Manage Categories</i></b>
 <img src="https://user-images.githubusercontent.com/94285514/143530037-4847fafc-c106-4eee-b2ba-20b55b25e5c8.png">
 </p>
-
-***SQL Query***
- 
-```sql
-SELECT * FROM categories;
-```
 
 <br>
 <p align="center">
