@@ -1,162 +1,179 @@
-# Expense Tracker
-Website to track **Personal Expenses** with user login support and **Data Visualization.**
+<div id="top"></div>
 
-_Project created for Database Management Systems Lab Course (CS309)._
+<!-- Project Logo -->
+<div align="center">
+    <a href="https://github.com/azileify/Expense-Tracker">
+        <img src="./Expense-Tracker/Assets/images/icon.png" alt="Logo" width="128" height="128">
+    </a>
+    <h3 align="center"><b><i>EXPENSE TRACKER</i></b></h3>
+    <p align="center">
+        Simple Personal Expense Tracker💸with User Login👥and Data Visualization 📊.
+        <br /><a href=""><strong>Explore the docs »</strong></a>
+    </p>
+</div>
 
-<h3 align="center">Technology Stack</h3>
+<!-- Table of Contents -->
+<details>
+  <summary><b>Table of Contents</b></summary>
+  <ol style="font-weight: bold">
+    <li>
+        <a href="#about-the-project" style="color: #FFF"><b>About the Project</b></a>
+    </li>
+    <li>
+        <a href="#built-with" style="color: #FFF"><b>Built With</b></a>
+        <ul style="list-style-type: disc">
+            <li><a href="#tech-stack">Tech Stack</a></li>
+            <li><a href="#framework-and-packages">Framework and Packages</a></li>
+            <li><a href="#editors">IDEs/Editors</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#database" style="color: #FFF"><b>Database</b></a>
+        <ul style="list-style-type: disc">
+            <li><a href="#relations">Relations</a></li>
+            <li><a href="#er-diagram">ER Diagram</a></li>
+            <li><a href="#schema">Schema</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#getting=started" style="color: #FFF"><b>Getting Started</b></a>
+        <ul style="list-style-type: disc">
+            <li><a href="#rrerequisites">Prerequisites</a></li>
+            <li><a href="#how-to-run">How to Run</a></li>
+        </ul>
+    </li>
+    <li>
+        <a href="#usage" style="color: #FFF"><b>Usage</b></a>
+    </li>
+    <li>
+        <a href="#license" style="color: #FFF"><b>License</b></a>
+    </li>
+    <li>
+        <a href="#acknowledgments" style="color: #FFF"><b>Acknowledgments</b></a>
+    </li>
+</details>
 
-<p align=center>
+<!-- About the Project -->
+## About the Project
 
-<img src="https://img.shields.io/badge/Xampp-F37623?style=for-the-badge&logo=xampp&logoColor=white" />
-<img src="https://img.shields.io/badge/PHP-v7.3.12-777BB4?&style=for-the-badge&logo=php&?labelColor=777BB4&logoColor=white" />
-<img src="https://img.shields.io/badge/symfony-%23000000.svg?style=for-the-badge&logo=symfony&logoColor=white" />
-<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" />
+![Expense-Banner](https://osome.com/content/images/2020/07/Scrabble-Deductible-Expenses-Singapore-Company.jpg)
 
+<p>A simple website to track daily <b>Personal Expenses.</b>
+The Website supports <b>User Login/Registration</b> and can <b>Categorizes Expenses</b>. The Charts section will /<b>Visualize Expenses Data</b> based on both <b>Categories</b> and <b>Over a Period of Time.</b></p>
+
+> Project created for <b>Database Management Systems Lab (CS309)</b> course.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Built With -->
+## Built With
+
+<p>Set of Programming Languages, Frameworks and Tools used for creating the Project are listed below ⤵︎</p>
+
+### Tech Stack
+
+<ul>
+    <p align="center">
+        <img src="https://img.shields.io/badge/Xampp-F37623?style=for-the-badge&logo=xampp&logoColor=white" />
+        <img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" />
+        <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+        <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" />
+    </p>
+    <li><b><a href="https://www.apachefriends.org/index.html" style="color: #FFF">XAMPP</a>:</b> Open-Source Cross Platform Web Solution Stack Package which provides
+    <ol style="list-style-type: number">
+        <li><b><a href="https://httpd.apache.org/" style="color: #FFF">Apache HTTP Server</a>:</b> Free and Open-source Web Server that delivers web content through the internet.</li>
+        <li><b><a href="https://www.php.net/" style="color: #FFF">PHP</a>:</b> General-Purpose Scripting Language for Web Development.</li>
+        <li><b><a href="https://www.mysql.com/" style="color: #FFF">MySQL</a>:</b> Free and Open-Source Relational Database Management System (RDBMS).</li>
+    </ol>
+    </li>
+    <br>
+    <p align="center">
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+        <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+    </p>
+    <li><b>HTML 5</b>: Standard Markup Language for creating Web Pages.</li>
+    <li><b>CSS</b>: Used to Style HTML Pages.</li>
+    <li><b>Javascript</b>: Used for Scripting Web Pages.</li>
+</ul>
+
+### Framework and Packages
+
+<ul>
+    <li><b><a href="https://symfony.com/" style="color: #FFF">Symfony</a>:</b> An open-source PHP Web-Application Framework, designed for developers who need a simple and elegant toolkit to create full-featured web applications.
+    <p align="left">
+        <img src="https://img.shields.io/badge/symfony-%23000000.svg?style=for-the-badge&logo=symfony&logoColor=white" />
+    </p>
+    </li>
+    <li><b><a href="https://symfony.com/doc/current/doctrine.html" style="color: #FFF">Doctrine- DBAL</a>:</b> Powerful PHP Database Abstraction Layer with many for features for communication between a Computer Application and Relational Databases like MySQL, PostgreSQL, Oracle and SQLite.
+    </li>
+    <li><b><a href="https://github.com/PHPMailer/PHPMailer" style="color: #FFF">PHPMailer</a>:</b> A full-featured email creation and transfer class for PHP. Used for Registration Confirmation Mail 
+    <strong>(Removed for Current Version).</strong>
+    </li>
+</ul>
+
+### Editors
+
+<p>Integrated development environments (IDEs) are used to manage workflows, access a suite of development tools within a single dashboard, and reduce errors.</p>
+
+Editors used are ⤵︎
+<ul>
+    <p align="center">
+        <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+        <img src="https://img.shields.io/badge/phpstorm-143?style=for-the-badge&logo=phpstorm&logoColor=black&color=E6E6FA&labelColor=E6E6FA" />
+        <img src="https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white" />
+    </p>
+    <li><b><a href="https://code.visualstudio.com/" style="color: #FFF">Visual Studio Code</a>:</b> Free, powerful, lightweight code editor, highly customizable with over 25,000 extensions for every Programming Language.</li>
+    <li><b><a href="https://www.jetbrains.com/phpstorm/" style="color: #FFF">PHPStorm</a>:</b> Editor for PHP, HTML and JavaScript with on-the-fly code analysis, error prevention and automated refactorings for PHP and JavaScript code.</li>
+    <li><b><a href="https://www.vim.org/" style="color: #FFF">VIM</a></b>: Blazing fast commands from VIM are installed using open-source extensions in both editors.
+</ul>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Database -->
+## Database
+
+### Relations
+### ER-Diagram
+### Schema
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- Getting Started -->
+## Getting Started
+<p>The Prequesites and Installation Process is given below ⤵︎</p>
+
+### Prerequisites
+<p> XAMPP v7.3.12 has been used for the Web Services. The installer for the suggested version can be downloaded from SourceForge. 
+<a href="https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.3.12/"> Click Here</a>
 </p>
 
-<p align="center">
+### How to Run ?
+1. Clone this repo using the command
 
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
+    ```sh
+    git clone https://github.com/azileify/Expense-Tracker.git
+    ```
+2. Move the repo to  htdocs folder located under XAMPP Installation Folder. The Default Path is: ```C:\xampp\htdocs```.
+3. Open XAMPP Control Panel and then start Apache Server and MySQL services.
+4. Open PHPmyAdmin and then create a Database of name **expense_tracker** and import the .sql file provided in database folder in the repo.
+5. Now use the address ```localhostExpense-Tracker``` to open the project in browser.
 
-</p>
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white -->
+<!-- Screenshots -->
+## Usage
 
-**_Framework_**
-- **Symfony** is an open-source PHP web application framework, designed for developers who need a simple and elegant toolkit to create full-featured web applications.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-**_Packages_**
+<!-- License -->
+## License
+This software is licenced under the MIT License. Please read [LICENSE](https://github.com/azileify/Expense-Tracker/blob/main/LICENSE) for information on the software availability and distribution.
 
-1. [**Doctrine - DBAL**](https://symfony.com/doc/current/doctrine.html): Powerful PHP Database Abstraction Layer with many for features for communication between a Computer Application and Relational Databases like MySQL, PostgreSQL, Oracle and SQLite.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-2. [**PHPMailer**](https://github.com/infinitered/middleman-template/tree/master/source/libraries/vendor/phpmailer/phpmailer): A full-featured email creation and transfer class for PHP. Used for Registration Confirmation Mail (Removed).
+<!-- Acknowledgments -->
+## Acknowledgments
 
-**_Database_**
-
-For this project, we will be using three tables.
- - **Users**(user_id, role, username, password, date_time_registered): Stores registered users credentials.
- - **Category**(category_id, category_name, date_time_added): Stores different types of Categories.
- - **Expenses**(expense_id, user_id, category_id, amount, description, date_time_added): Stores Expense Amount and Type of Expense for each user.
-
-#### Entity Relationship Diagram
-<p align="center">
-
-<img src="https://user-images.githubusercontent.com/94285514/143732666-4dd9561b-a4a5-44e2-ba23-68222660cedd.jpg" width="700" height="">
-
-</p>
-
-#### Class Diagram
-<p align="center">
-
-<img src="https://user-images.githubusercontent.com/94285514/143071049-8af4925b-79fa-438c-a92e-efcbd2fd6ad0.jpg">
-
-</p>
-
-***Modules & Screenshots***
-
-
-<p align="center">
-<b><i>Login Page</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143485149-3f251a62-1e4d-4f33-8e2c-c4b5d954d2f0.png">
-</p>
-
-<p align="center">
-<b><i>User Registration Page</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143485533-8ca75334-1264-400d-8685-e432a733576e.png">
-</p>
-
-<p align="center">
-<b><i>Change Password</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143530298-efecd690-b178-42d7-bbab-3d58cfe3aa33.png">
-</p>
-
-<p align="center">
-<b><i>Personal Expense dashboard</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143530231-13b76d18-b33e-4da7-9766-54bffa4d9df5.png">
-</p>
-
-<p align="center">
-<b><i>Add Expense</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143530667-cf87a892-a781-49ae-b943-2975b1ff32ca.png">
-</p>
-
-<p align="center">
-<b><i>Add Category</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143530664-b6607da8-9e42-46c0-90b1-d36285d17767.png">
-</p>
-
-<p align="center">
-<b><i>Manage Categories</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143530037-4847fafc-c106-4eee-b2ba-20b55b25e5c8.png">
-</p>
-
-<br>
-<p align="center">
-<b><i>Manage Expenses</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143530108-565e3caf-7e74-4b7e-b062-858059bd13cc.png">
-</p>
-
-***SQL Query***
-```sql
-SELECT 
-  E.*, 
-  C.name as category_name 
-FROM 
-  expenses E 
-  LEFT JOIN categories C ON E.category_id = C.id 
-WHERE 
-  user_id = $user_id;
-```
-  
-<p align="center">
-<b><i>Category Wise - Pie Chart</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143529827-eef436b2-d270-4078-ac99-e717bb77cba3.png">
-</p>
-
-***SQL Query***
-```sql
-SELECT 
-  sum(E.amount) as total_expenses, 
-  C.name 
-FROM 
-  expenses E 
-  LEFT JOIN categories C ON E.category_id = C.id 
-WHERE 
-  E.user_id = $user_id 
-GROUP BY 
-  E.category_id;
-```
-
-<p align="center">
-<b><i>Date and Time Wise - Line Chart</i></b>
-<img src="https://user-images.githubusercontent.com/94285514/143763678-47726677-4dea-4b2a-96cb-09f2eb0d92a4.png">
-</p>
-
-***SQL Query***
-```sql
-SELECT * 
-FROM 
-  expenses 
-WHERE 
-  datetime_added >= '$from_date' 
-  AND datetime_added <= '$to_date' 
-  AND user_id = $user_id;
-```
-
-**_Requirements_**
-
-Install XAMPP v7.3.12 from the below link. [Click here to Download](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.3.12/)
-
-**_How to Run?_**
-
-1. Clone this repository in the htdocs folder located under XAMPP Installation Folder. The default path is: ```C:\xampp\htdocs```.
-2. Open XAMPP Control Panel and then start Apache Server and MySQL services.
-3. Open PHPmyAdmin and then create a Database of name **expense_tracker** and import the .sql file provided in database folder in the repo.
-4. Now use the address ```localhost/Expense-Tracker``` to open the project in browser.
-
-**_License_**
-
-This software is licenced under the MIT License. Please read LICENSE for information on the software availability and distribution.
+<p align="right">(<a href="#top">back to top</a>)</p>
