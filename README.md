@@ -8,7 +8,7 @@
     <h3 align="center"><b><i>EXPENSE TRACKER</i></b></h3>
     <p align="center">
         Simple Personal Expense Tracker💸with User Login👥and Data Visualization 📊.
-        <br /><a href=""><strong>Explore the docs »</strong></a>
+        <br /><a href="https://github.com/azileify/Expense-Tracker/blob/main/README.md"><strong>Explore the docs »</strong></a>
     </p>
 </div>
 
@@ -135,7 +135,16 @@ Editors used are ⤵︎
 ## Database
 
 ### Relations
+
+
+
 ### ER-Diagram
+
+The Entity-Relationship Diagram for the Database is:
+<p align="center">
+    <img src="./Images/Schema/ER-Diagram.png" />
+</p>
+
 ### Schema
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -155,10 +164,10 @@ Editors used are ⤵︎
     ```sh
     git clone https://github.com/azileify/Expense-Tracker.git
     ```
-2. Move the repo to  htdocs folder located under XAMPP Installation Folder. The Default Path is: ```C:\xampp\htdocs```.
+2. Move the repo to htdocs folder located under XAMPP Installation Folder. The Default Path is: ```C:\xampp\htdocs```.
 3. Open XAMPP Control Panel and then start Apache Server and MySQL services.
-4. Open PHPmyAdmin and then create a Database of name **expense_tracker** and import the .sql file provided in database folder in the repo.
-5. Now use the address ```localhostExpense-Tracker``` to open the project in browser.
+4. Open PHPmyAdmin and then create a Database of name **Expense_Tracker** and import the ```Expense_Tracker.sql``` file provided in database folder in the repo.
+5. Now use the address ```localhost/Expense-Tracker``` to open the project in browser.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
