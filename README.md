@@ -136,7 +136,18 @@ Editors used are ⤵︎
 
 ### Relations
 
-
+The Database has three Tables:
+<ol>
+    <li>
+    <p><b>👥 Users (user_id, role, username, password, registered_date_time): </b> Stores credentials for registered users.</p>
+    </li>
+    <li>
+    <p><b>🏷️ Category (category_id, category_name, date_time_added):</b> Stores different types of categories.</p>
+    </li>
+    <li>
+    <p><b>💸 Expenses (expense_id, user_id, category_id, amount, description, date_time_added):</b> Stores Expense details like amount and description for each user.</p>
+    </li>
+</ol>
 
 ### ER-Diagram
 
@@ -147,11 +158,16 @@ The Entity-Relationship Diagram for the Database is:
 
 ### Schema
 
+The Class Diagram for the Database is:
+<p align="center">
+    <img src="./Images/Schema/Class-Diagram.jpg" />
+</p>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- Getting Started -->
 ## Getting Started
-<p>The Prequesites and Installation Process is given below ⤵︎</p>
+<p>The Prerequisites and Installation Process is given below ⤵︎</p>
 
 ### Prerequisites
 <p> XAMPP v7.3.12 has been used for the Web Services. The installer for the suggested version can be downloaded from SourceForge. 
