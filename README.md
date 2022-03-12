@@ -133,6 +133,7 @@ Editors used are ⤵︎
 
 <!-- Database -->
 ## Database
+<p>The Database design for the project is given below ⤵︎</p>
 
 ### Relations
 
@@ -190,6 +191,9 @@ The Class Diagram for the Database is:
 <!-- Screenshots -->
 ## Usage
 
+The UI Screenshots for different Modules and Working of the project can be viewed in the given markup file. <br>
+[See Usage.md](./USAGE.md)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- License -->
@@ -200,5 +204,12 @@ This software is licenced under the MIT License. Please read [LICENSE](https://g
 
 <!-- Acknowledgments -->
 ## Acknowledgments
+
+<p>Resources used and Reference Links for creating this website are ⤵︎</p>
+
+- [Markdown-Badges](https://github.com/Ileriayo/markdown-badges)
+- [Configure XAMPP for PHPStorm](https://www.jetbrains.com/help/phpstorm/installing-an-amp-package.html)
+- [Getting Started with Google Charts](https://developers.google.com/chart)
+- [ASCII Directory Tree Generator](https://tree.nathanfriend.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
