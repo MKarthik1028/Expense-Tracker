@@ -192,7 +192,7 @@ The Class Diagram for the Database is:
 ## Usage
 
 The UI Screenshots for different Modules and Working of the project can be viewed in the given markup file. <br>
-[See Usage.md](./USAGE.md)
+[See MODULES.md](./MODULES.md)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
