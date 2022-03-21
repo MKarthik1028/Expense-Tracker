@@ -59,7 +59,7 @@
 ![Expense-Banner](https://osome.com/content/images/2020/07/Scrabble-Deductible-Expenses-Singapore-Company.jpg)
 
 <p>A simple website to track daily <b>Personal Expenses.</b>
-The Website supports <b>User Login/Registration</b> and can <b>Categorizes Expenses</b>. The Charts section will /<b>Visualize Expenses Data</b> based on both <b>Categories</b> and <b>Over a Period of Time.</b></p>
+The Website supports <b>User Login/Registration</b> and can <b>Categorizes Expenses</b>. The Charts section will <b>Visualize Expenses Data</b> based on both <b>Categories</b> and <b>Expenses over a Period of Time.</b></p>
 
 > Project created for <b>Database Management Systems Lab (CS309)</b> course.
 
